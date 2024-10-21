@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d27ed7d0-2a77-4f6a-a72a-f30fe0f58c4c" name="Changes" comment="first commit" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/TodoApi" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2nffy2oXqANWXwiQIJCTg0heiW1" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="TestNG.UserTest">
+    <configuration name="TodoTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="todoProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="todo.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="todo.testcases" />
+      <option name="MAIN_CLASS_NAME" value="todo.testcases.TodoTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoTest.ShouldBeAbleToDeleteTodoById" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="todoProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="todo.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="todo.testcases" />
+      <option name="MAIN_CLASS_NAME" value="todo.testcases.TodoTest" />
+      <option name="METHOD_NAME" value="ShouldBeAbleToDeleteTodoById" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoTest.ShouldBeAbleToGetTodoById" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="todoProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="todo.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="todo.testcases" />
+      <option name="MAIN_CLASS_NAME" value="todo.testcases.TodoTest" />
+      <option name="METHOD_NAME" value="ShouldBeAbleToGetTodoById" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoTest.shouldnotBeAbleToAddTodoIfIsCompletedMissing" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="todoProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="todo.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="todo.testcases" />
+      <option name="MAIN_CLASS_NAME" value="todo.testcases.TodoTest" />
+      <option name="METHOD_NAME" value="shouldnotBeAbleToAddTodoIfIsCompletedMissing" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="todoProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="todo.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="todo.testcases" />
+      <option name="MAIN_CLASS_NAME" value="todo.testcases.UserTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.UserTest" />
+        <item itemvalue="TestNG.TodoTest" />
+        <item itemvalue="TestNG.TodoTest.ShouldBeAbleToGetTodoById" />
+        <item itemvalue="TestNG.TodoTest.ShouldBeAbleToDeleteTodoById" />
+        <item itemvalue="TestNG.TodoTest.shouldnotBeAbleToAddTodoIfIsCompletedMissing" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d27ed7d0-2a77-4f6a-a72a-f30fe0f58c4c" name="Changes" comment="" />
+      <created>1729369303761</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729369303761</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
