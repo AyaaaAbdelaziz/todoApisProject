@@ -44,5 +44,14 @@ public class TodoSteps {
         Response res =TodoApis.AddTodo(todoModel,token);
         return res.body().path("_id");
     }
+    public static String getUnauthorizedTaskID(){
+       String token= UserSteps.getUserToken();
+        Faker faker = new Faker();
+        Boolean  isCompleted = false;
+        String item = faker.cat().name();
+        TodoModel todoModel=new TodoModel(isCompleted,item);
+        Response res =TodoApis.AddTodo(todoModel,token);
+        return res.body().path("_id");
+    }
 
 }

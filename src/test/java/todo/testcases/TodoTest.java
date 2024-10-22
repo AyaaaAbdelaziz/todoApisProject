@@ -57,6 +57,14 @@ public class TodoTest {
         assertThat(todoModelResponse.getIsCompleted(),equalTo(false));
     }
     @Test
+    public void ShouldNotBeAbleToGetAnotherUserTodoById(){
+        String taskId=TodoSteps.getUnauthorizedTaskID();
+        Response res= TodoApis.GetTodoByID(token,taskId);
+        assertThat(res.statusCode(),equalTo(403));
+        Error error =res.body().as(Error.class);
+        assertThat(error.getMessage(),equalTo(Errors.Forbidden_to_access_todo));
+    }
+    @Test
     public void ShouldBeAbleToDeleteTodoById(){
         String taskId="6716b2950f212c00148e5251";
         Response res = TodoApis.DeleteTodoByID(token,taskId);
