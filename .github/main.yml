@@ -2,4 +2,4 @@ name: Run Rest assured test cases
 
 on:
   push:
-    branches: ["master"]
+    branches: ["main"]
