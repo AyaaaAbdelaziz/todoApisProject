@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d27ed7d0-2a77-4f6a-a72a-f30fe0f58c4c" name="Changes" comment="first commit">
-      <change beforePath="$PROJECT_DIR$/TodoApi" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/TodoData.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todoProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/todo/data/Errors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/todo/data/Errors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/todo/testcases/TodoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/todo/testcases/TodoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/todo/testcases/TodoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/todo/testcases/TodoTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,10 +48,18 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/Users/158089/IdeaProjects/todoProject"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.UserTest">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\158089\IdeaProjects\todoProject\src\test\java\todo\resources" />
+      <recent name="C:\Users\158089\IdeaProjects\todoProject\src\test\java\todo\data" />
+      <recent name="C:\Users\158089\IdeaProjects\todoProject\src\test\java\todo\base" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.TodoTest">
     <configuration name="TodoTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="todoProject" />
       <extension name="coverage">
@@ -55,6 +71,24 @@
       <option name="PACKAGE_NAME" value="todo.testcases" />
       <option name="MAIN_CLASS_NAME" value="todo.testcases.TodoTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoTest.ShouldBeAbleToAddTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="todoProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="todo.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="todo.testcases" />
+      <option name="MAIN_CLASS_NAME" value="todo.testcases.TodoTest" />
+      <option name="METHOD_NAME" value="ShouldBeAbleToAddTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -115,30 +149,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="todoProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="todo.testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="todo.testcases" />
-      <option name="MAIN_CLASS_NAME" value="todo.testcases.UserTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.UserTest" />
         <item itemvalue="TestNG.TodoTest" />
         <item itemvalue="TestNG.TodoTest.ShouldBeAbleToGetTodoById" />
         <item itemvalue="TestNG.TodoTest.ShouldBeAbleToDeleteTodoById" />
         <item itemvalue="TestNG.TodoTest.shouldnotBeAbleToAddTodoIfIsCompletedMissing" />
+        <item itemvalue="TestNG.TodoTest.ShouldBeAbleToAddTest" />
       </list>
     </recent_temporary>
   </component>
