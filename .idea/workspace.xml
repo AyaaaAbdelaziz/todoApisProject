@@ -5,12 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d27ed7d0-2a77-4f6a-a72a-f30fe0f58c4c" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/todo/data/Errors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/todo/data/Errors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/todo/steps/TodoSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/todo/steps/TodoSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/todo/testcases/TodoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/todo/testcases/TodoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/todo/testcases/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/todo/testcases/UserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/todo/apis/TodoApis.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/todo/apis/TodoApis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/todo/apis/UserApis.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/todo/apis/UserApis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/todo/base/Specs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/todo/base/Specs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/todo/data/Errors.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/todo/data/Errors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/todo/data/route.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/todo/data/route.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/todo/models/ErrorModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/todo/models/ErrorModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/todo/models/TodoModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/todo/models/TodoModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/todo/models/userModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/todo/models/userModel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/todo/steps/TodoSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/todo/steps/TodoSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/todo/steps/UserSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/todo/steps/UserSteps.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/todo/testcases/TodoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/todo/testcases/TodoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/todo/testcases/UserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/todo/testcases/UserTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoProject.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,24 +46,27 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectId" id="2nffy2oXqANWXwiQIJCTg0heiW1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/158089/IdeaProjects/todoProject"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.4632184" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\158089\IdeaProjects\todoProject\src\test\java\todo\resources" />
@@ -56,7 +74,7 @@
       <recent name="C:\Users\158089\IdeaProjects\todoProject\src\test\java\todo\base" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TodoTest.ShouldNotBeAbleToGetAnotherUserTodoById">
+  <component name="RunManager" selected="TestNG.TodoTest.ShouldBeAbleToDeleteTodoById">
     <configuration name="TodoTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="todoProject" />
       <extension name="coverage">
@@ -148,10 +166,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TodoTest.ShouldNotBeAbleToGetAnotherUserTodoById" />
-        <item itemvalue="TestNG.TodoTest" />
-        <item itemvalue="TestNG.TodoTest.ShouldBeAbleToGetTodoById" />
         <item itemvalue="TestNG.TodoTest.ShouldBeAbleToDeleteTodoById" />
+        <item itemvalue="TestNG.TodoTest" />
+        <item itemvalue="TestNG.TodoTest.ShouldNotBeAbleToGetAnotherUserTodoById" />
+        <item itemvalue="TestNG.TodoTest.ShouldBeAbleToGetTodoById" />
         <item itemvalue="TestNG.TodoTest.shouldnotBeAbleToAddTodoIfIsCompletedMissing" />
       </list>
     </recent_temporary>
@@ -202,6 +220,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />

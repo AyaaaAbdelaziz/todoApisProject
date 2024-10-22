@@ -1,0 +1,139 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Oct 22 23:15:56 EET 2024</td>
+</tr>
+<tr><td>Total time:</td><td>30 seconds (30892 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='todo.testcases.TodoTest.ShouldBeAbleToAddTest()'><b>ShouldBeAbleToAddTest</b><br>Test class: todo.testcases.TodoTest<br>Test method: Should Be Able To Add Test<br>Parameters: FALSE, study list</td>
+<td></td>
+<td>1</td>
+<td>todo.testcases.TodoTest@568f4faa</td></tr>
+<tr>
+<td title='todo.testcases.TodoTest.ShouldBeAbleToAddTest()'><b>ShouldBeAbleToAddTest</b><br>Test class: todo.testcases.TodoTest<br>Test method: Should Be Able To Add Test<br>Parameters: FALSE, work list</td>
+<td></td>
+<td>1</td>
+<td>todo.testcases.TodoTest@568f4faa</td></tr>
+<tr>
+<td title='todo.testcases.TodoTest.ShouldBeAbleToAddTest()'><b>ShouldBeAbleToAddTest</b><br>Test class: todo.testcases.TodoTest<br>Test method: Should Be Able To Add Test<br>Parameters: TRUE, work out list </td>
+<td></td>
+<td>0</td>
+<td>todo.testcases.TodoTest@568f4faa</td></tr>
+<tr>
+<td title='todo.testcases.TodoTest.ShouldBeAbleToAddTest()'><b>ShouldBeAbleToAddTest</b><br>Test class: todo.testcases.TodoTest<br>Test method: Should Be Able To Add Test<br>Parameters: FALSE, Shopping List</td>
+<td></td>
+<td>0</td>
+<td>todo.testcases.TodoTest@568f4faa</td></tr>
+<tr>
+<td title='todo.testcases.TodoTest.ShouldBeAbleToDeleteTodoById()'><b>ShouldBeAbleToDeleteTodoById</b><br>Test class: todo.testcases.TodoTest<br>Test method: Should Be Able To Delete Todo By Id</td>
+<td></td>
+<td>6</td>
+<td>todo.testcases.TodoTest@568f4faa</td></tr>
+<tr>
+<td title='todo.testcases.TodoTest.ShouldBeAbleToGetTodoById()'><b>ShouldBeAbleToGetTodoById</b><br>Test class: todo.testcases.TodoTest<br>Test method: Should Be Able To Get Todo By Id</td>
+<td></td>
+<td>5</td>
+<td>todo.testcases.TodoTest@568f4faa</td></tr>
+<tr>
+<td title='todo.testcases.TodoTest.ShouldNotBeAbleToGetAnotherUserTodoById()'><b>ShouldNotBeAbleToGetAnotherUserTodoById</b><br>Test class: todo.testcases.TodoTest<br>Test method: Should Not Be Able To Get Another User Todo By Id</td>
+<td></td>
+<td>3</td>
+<td>todo.testcases.TodoTest@568f4faa</td></tr>
+<tr>
+<td title='todo.testcases.UserTest.shouldBeAbleToRegister()'><b>shouldBeAbleToRegister</b><br>Test class: todo.testcases.UserTest<br>Test method: should Be Able To Register</td>
+<td></td>
+<td>1</td>
+<td>todo.testcases.UserTest@4c56644f</td></tr>
+<tr>
+<td title='todo.testcases.UserTest.shouldBeableToLogin()'><b>shouldBeableToLogin</b><br>Test class: todo.testcases.UserTest<br>Test method: should Be able To Login</td>
+<td></td>
+<td>1</td>
+<td>todo.testcases.UserTest@4c56644f</td></tr>
+<tr>
+<td title='todo.testcases.TodoTest.shouldnotBeAbleToAddTodoIfIsCompletedMissing()'><b>shouldnotBeAbleToAddTodoIfIsCompletedMissing</b><br>Test class: todo.testcases.TodoTest<br>Test method: should not Be Able To Add Todo If IsCompleted Missing</td>
+<td></td>
+<td>0</td>
+<td>todo.testcases.TodoTest@568f4faa</td></tr>
+<tr>
+<td title='todo.testcases.UserTest.shouldnotBeableToLogin()'><b>shouldnotBeableToLogin</b><br>Test class: todo.testcases.UserTest<br>Test method: should not Be able To Login</td>
+<td></td>
+<td>3</td>
+<td>todo.testcases.UserTest@4c56644f</td></tr>
+<tr>
+<td title='todo.testcases.UserTest.shouldnotBeableToRegister()'><b>shouldnotBeableToRegister</b><br>Test class: todo.testcases.UserTest<br>Test method: should not Be able To Register</td>
+<td></td>
+<td>5</td>
+<td>todo.testcases.UserTest@4c56644f</td></tr>
+</table><p>
+</body>
+</html>
