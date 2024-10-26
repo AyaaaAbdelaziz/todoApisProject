@@ -2,12 +2,46 @@
 <testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="30892" started-at="2024-10-22T20:15:56Z" finished-at="2024-10-22T20:16:27Z">
+  <suite name="Surefire suite" duration-ms="3592" started-at="2024-10-26T13:08:03Z" finished-at="2024-10-26T13:08:07Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="30892" started-at="2024-10-22T20:15:56Z" finished-at="2024-10-22T20:16:27Z">
+    <test name="Surefire test" duration-ms="3592" started-at="2024-10-26T13:08:03Z" finished-at="2024-10-26T13:08:07Z">
+      <class name="todo.testcases.UserTest">
+        <test-method status="PASS" signature="shouldnotBeableToLogin()[pri:0, instance:todo.testcases.UserTest@446c8c72]" name="shouldnotBeableToLogin" duration-ms="1968" started-at="2024-10-26T13:08:04Z" description="should not Be able To Login" finished-at="2024-10-26T13:08:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldnotBeableToLogin -->
+        <test-method status="PASS" signature="shouldBeableToLogin()[pri:0, instance:todo.testcases.UserTest@446c8c72]" name="shouldBeableToLogin" duration-ms="2392" started-at="2024-10-26T13:08:04Z" description="should Be able To Login" finished-at="2024-10-26T13:08:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeableToLogin -->
+        <test-method status="PASS" signature="shouldBeAbleToRegister()[pri:0, instance:todo.testcases.UserTest@446c8c72]" name="shouldBeAbleToRegister" duration-ms="1808" started-at="2024-10-26T13:08:04Z" description="should Be Able To Register" finished-at="2024-10-26T13:08:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToRegister -->
+        <test-method status="PASS" signature="shouldnotBeableToRegister()[pri:0, instance:todo.testcases.UserTest@446c8c72]" name="shouldnotBeableToRegister" duration-ms="2288" started-at="2024-10-26T13:08:04Z" description="should not Be able To Register" finished-at="2024-10-26T13:08:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldnotBeableToRegister -->
+      </class> <!-- todo.testcases.UserTest -->
       <class name="todo.testcases.TodoTest">
-        <test-method status="PASS" signature="ShouldBeAbleToAddTest(java.lang.String, java.lang.String)[pri:0, instance:todo.testcases.TodoTest@568f4faa]" name="ShouldBeAbleToAddTest" duration-ms="1278" started-at="2024-10-22T20:15:56Z" description="Should Be Able To Add Test" data-provider="AddTodoValidData" finished-at="2024-10-22T20:15:57Z">
+        <test-method status="PASS" signature="ShouldBeAbleToDeleteTodoById()[pri:0, instance:todo.testcases.TodoTest@892af0e]" name="ShouldBeAbleToDeleteTodoById" duration-ms="1816" started-at="2024-10-26T13:08:04Z" description="Should Be Able To Delete Todo By Id" finished-at="2024-10-26T13:08:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShouldBeAbleToDeleteTodoById -->
+        <test-method status="PASS" signature="shouldnotBeAbleToAddTodoIfIsCompletedMissing()[pri:0, instance:todo.testcases.TodoTest@892af0e]" name="shouldnotBeAbleToAddTodoIfIsCompletedMissing" duration-ms="1552" started-at="2024-10-26T13:08:04Z" description="should not Be Able To Add Todo If IsCompleted Missing" finished-at="2024-10-26T13:08:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldnotBeAbleToAddTodoIfIsCompletedMissing -->
+        <test-method status="PASS" signature="ShouldBeAbleToGetTodoById()[pri:0, instance:todo.testcases.TodoTest@892af0e]" name="ShouldBeAbleToGetTodoById" duration-ms="1992" started-at="2024-10-26T13:08:04Z" description="Should Be Able To Get Todo By Id" finished-at="2024-10-26T13:08:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShouldBeAbleToGetTodoById -->
+        <test-method status="PASS" signature="ShouldNotBeAbleToGetAnotherUserTodoById()[pri:0, instance:todo.testcases.TodoTest@892af0e]" name="ShouldNotBeAbleToGetAnotherUserTodoById" duration-ms="3016" started-at="2024-10-26T13:08:04Z" description="Should Not Be Able To Get Another User Todo By Id" finished-at="2024-10-26T13:08:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShouldNotBeAbleToGetAnotherUserTodoById -->
+        <test-method status="PASS" signature="ShouldBeAbleToAddTest(java.lang.String, java.lang.String)[pri:0, instance:todo.testcases.TodoTest@892af0e]" name="ShouldBeAbleToAddTest" duration-ms="1712" started-at="2024-10-26T13:08:04Z" description="Should Be Able To Add Test" data-provider="AddTodoValidData" finished-at="2024-10-26T13:08:05Z">
           <params>
             <param index="0">
               <value>
@@ -23,7 +57,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ShouldBeAbleToAddTest -->
-        <test-method status="PASS" signature="ShouldBeAbleToAddTest(java.lang.String, java.lang.String)[pri:0, instance:todo.testcases.TodoTest@568f4faa]" name="ShouldBeAbleToAddTest" duration-ms="1029" started-at="2024-10-22T20:15:58Z" description="Should Be Able To Add Test" data-provider="AddTodoValidData" finished-at="2024-10-22T20:15:59Z">
+        <test-method status="PASS" signature="ShouldBeAbleToAddTest(java.lang.String, java.lang.String)[pri:0, instance:todo.testcases.TodoTest@892af0e]" name="ShouldBeAbleToAddTest" duration-ms="608" started-at="2024-10-26T13:08:05Z" description="Should Be Able To Add Test" data-provider="AddTodoValidData" finished-at="2024-10-26T13:08:06Z">
           <params>
             <param index="0">
               <value>
@@ -39,7 +73,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ShouldBeAbleToAddTest -->
-        <test-method status="PASS" signature="ShouldBeAbleToAddTest(java.lang.String, java.lang.String)[pri:0, instance:todo.testcases.TodoTest@568f4faa]" name="ShouldBeAbleToAddTest" duration-ms="568" started-at="2024-10-22T20:15:59Z" description="Should Be Able To Add Test" data-provider="AddTodoValidData" finished-at="2024-10-22T20:15:59Z">
+        <test-method status="PASS" signature="ShouldBeAbleToAddTest(java.lang.String, java.lang.String)[pri:0, instance:todo.testcases.TodoTest@892af0e]" name="ShouldBeAbleToAddTest" duration-ms="520" started-at="2024-10-26T13:08:06Z" description="Should Be Able To Add Test" data-provider="AddTodoValidData" finished-at="2024-10-26T13:08:06Z">
           <params>
             <param index="0">
               <value>
@@ -55,7 +89,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ShouldBeAbleToAddTest -->
-        <test-method status="PASS" signature="ShouldBeAbleToAddTest(java.lang.String, java.lang.String)[pri:0, instance:todo.testcases.TodoTest@568f4faa]" name="ShouldBeAbleToAddTest" duration-ms="887" started-at="2024-10-22T20:15:59Z" description="Should Be Able To Add Test" data-provider="AddTodoValidData" finished-at="2024-10-22T20:16:00Z">
+        <test-method status="PASS" signature="ShouldBeAbleToAddTest(java.lang.String, java.lang.String)[pri:0, instance:todo.testcases.TodoTest@892af0e]" name="ShouldBeAbleToAddTest" duration-ms="528" started-at="2024-10-26T13:08:06Z" description="Should Be Able To Add Test" data-provider="AddTodoValidData" finished-at="2024-10-26T13:08:07Z">
           <params>
             <param index="0">
               <value>
@@ -71,41 +105,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ShouldBeAbleToAddTest -->
-        <test-method status="PASS" signature="ShouldBeAbleToDeleteTodoById()[pri:0, instance:todo.testcases.TodoTest@568f4faa]" name="ShouldBeAbleToDeleteTodoById" duration-ms="6061" started-at="2024-10-22T20:16:00Z" description="Should Be Able To Delete Todo By Id" finished-at="2024-10-22T20:16:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ShouldBeAbleToDeleteTodoById -->
-        <test-method status="PASS" signature="ShouldBeAbleToGetTodoById()[pri:0, instance:todo.testcases.TodoTest@568f4faa]" name="ShouldBeAbleToGetTodoById" duration-ms="5140" started-at="2024-10-22T20:16:06Z" description="Should Be Able To Get Todo By Id" finished-at="2024-10-22T20:16:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ShouldBeAbleToGetTodoById -->
-        <test-method status="PASS" signature="ShouldNotBeAbleToGetAnotherUserTodoById()[pri:0, instance:todo.testcases.TodoTest@568f4faa]" name="ShouldNotBeAbleToGetAnotherUserTodoById" duration-ms="3601" started-at="2024-10-22T20:16:11Z" description="Should Not Be Able To Get Another User Todo By Id" finished-at="2024-10-22T20:16:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ShouldNotBeAbleToGetAnotherUserTodoById -->
-        <test-method status="PASS" signature="shouldnotBeAbleToAddTodoIfIsCompletedMissing()[pri:0, instance:todo.testcases.TodoTest@568f4faa]" name="shouldnotBeAbleToAddTodoIfIsCompletedMissing" duration-ms="669" started-at="2024-10-22T20:16:15Z" description="should not Be Able To Add Todo If IsCompleted Missing" finished-at="2024-10-22T20:16:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shouldnotBeAbleToAddTodoIfIsCompletedMissing -->
       </class> <!-- todo.testcases.TodoTest -->
-      <class name="todo.testcases.UserTest">
-        <test-method status="PASS" signature="shouldBeAbleToRegister()[pri:0, instance:todo.testcases.UserTest@4c56644f]" name="shouldBeAbleToRegister" duration-ms="1463" started-at="2024-10-22T20:16:15Z" description="should Be Able To Register" finished-at="2024-10-22T20:16:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shouldBeAbleToRegister -->
-        <test-method status="PASS" signature="shouldBeableToLogin()[pri:0, instance:todo.testcases.UserTest@4c56644f]" name="shouldBeableToLogin" duration-ms="1551" started-at="2024-10-22T20:16:17Z" description="should Be able To Login" finished-at="2024-10-22T20:16:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shouldBeableToLogin -->
-        <test-method status="PASS" signature="shouldnotBeableToLogin()[pri:0, instance:todo.testcases.UserTest@4c56644f]" name="shouldnotBeableToLogin" duration-ms="3071" started-at="2024-10-22T20:16:19Z" description="should not Be able To Login" finished-at="2024-10-22T20:16:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shouldnotBeableToLogin -->
-        <test-method status="PASS" signature="shouldnotBeableToRegister()[pri:0, instance:todo.testcases.UserTest@4c56644f]" name="shouldnotBeableToRegister" duration-ms="5376" started-at="2024-10-22T20:16:22Z" description="should not Be able To Register" finished-at="2024-10-22T20:16:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shouldnotBeableToRegister -->
-      </class> <!-- todo.testcases.UserTest -->
-    </test> <!-- Command line test -->
-  </suite> <!-- Command line suite -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
 </testng-results>
